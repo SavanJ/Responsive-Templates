@@ -1,0 +1,196 @@
+.navbar-default
+{
+	background-color: white;
+	padding: 10px 0px;
+	border: 0px;	
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: white;
+}
+#nava
+{
+	color: black;
+	font-family: Comic Sans Ms;
+}
+#nava:hover
+{
+	color: black;
+	font-family: Comic Sans Ms;
+	border-bottom: 2px solid orange;
+	border-radius: 100px;
+	color: orange;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+.dropdown-menu
+{
+	box-shadow: 0px 0px 0px;border: 0px;
+	border-radius: 0px;
+
+}
+#inav
+{
+	color: black;
+	font-family: Comic Sans Ms;
+	margin: 15px 0px;
+}
+#inav:hover
+{
+	color: black;
+	font-family: Comic Sans Ms;
+	border-bottom: 2px solid orange;
+	border-radius: 100px;
+	color: orange;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	transition: 0.5s;
+	background-color: white;
+}
+#name
+{
+	font-family: Comic Sans Ms;
+	font-size: 25px;
+	margin: 0px 20px 0px 0px;
+}
+.spn1
+{
+	color: orange;
+}
+.spn2
+{	
+	color: orange;
+}
+.line
+{
+	width: 10px;
+	height: 5px;
+	background-color: black;
+	border: 1px solid red;
+}
+.col-md-4
+{
+	border: 1px solid black;
+}
+#cont2
+{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/bg1.jpg);
+	height: 1100px;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}	
+#colmd51
+{
+	margin: 0px;
+	padding: 0px;
+}
+#colmd71
+{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 40px;
+	margin-left: -30px;
+	background-color: white;
+	background-image: url(images/bg9.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+#colmd73
+{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 20px;
+	margin-left: -30px;
+	background-color: white;
+	background-image: url(images/bg9.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+#colmd72
+{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 15px;
+	margin-left: -30px;
+	background-color: white;
+	background-image: url(images/bg9.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+#row1
+{
+	margin-top: 20px;
+}
+h2
+{
+	margin: 5px;
+	margin-left: 30px;
+
+}
+#pre
+{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 10px;
+}
+.para1
+{
+
+	padding: 5px 25px 5px 30px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 0px;
+
+}
+#btn1
+{
+	margin:  5px 5px 5px 30px;
+	background: rgba(0,0,0,0);
+	border: 0px;
+	float: right;
+	font-size: 15px;
+	font-weight: 800;
+}
+#btn1:hover
+{
+	margin:  5px 5px 5px 30px;
+	background: rgba(0,0,0,0.4);
+	border: 0px;
+	color: white;
+	border-radius: 0px;
+	font-size: 16px;
+	transform: scale(1.1);
+	float: right;
+	font-size: 15px;
+	font-weight: 300;
+	transition: 0.5s;
+}
+.breadcrumb
+{
+	background-color: white;
+}
+@media screen and (max-width: 478px)
+{
+	#colmd71 , #colmd72
+	{
+		margin-top: 0px;
+		border-radius: 0px;
+	}
+	#row1 , #row2 , #row3
+	{
+		background-color: white;
+	}
+	#pre
+	{
+		border-radius: 0px;
+	}
+}
